@@ -1,0 +1,210 @@
+.bigger {
+    width: 100%;
+    position: relative;
+
+    .big {
+        margin: 0 auto;
+
+        .naw-fluid {
+            max-width: 100%;
+            margin: 0 auto;
+            position: sticky;
+            top: 0;
+            z-index: 999999999;
+            background-color: rgba(255, 255, 255, 0.916);
+
+            .nav {
+
+                .navbar {
+                    max-width: 1150px;
+                    margin: 0 auto !important;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 15px 0;
+                    color: black;
+                    z-index: 1000000 !important;
+
+                    .wrap {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        @media(max-width: 900px) {
+                            flex-direction: column-reverse;
+                        }
+
+                        ul {
+                            width: 550px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            @media(max-width: 900px) {
+                                color: white;
+                                height: 250px !important;
+                                transform: translateX(-1000px);
+                                text-align: center;
+                                flex-direction: column-reverse;
+                                background-color: rgba(0, 0, 0, 0.829);
+                                position: absolute;
+                                top: 80px;
+                                left: 0;
+                                width: 100% !important;
+                            }
+
+                            @media(max-width: 1050px) {
+                                width: 480px;
+                            }
+
+                            li {
+                                list-style: none;
+
+                                @media(max-width:1050px) {}
+
+                                @media(max-width: 900px) {
+                                    width: 100%;
+                                    margin: 25px auto;
+                                }
+
+                                a {
+                                    color: black;
+                                    text-decoration: none;
+                                    font-size: 18px;
+                                    overflow: hidden;
+                                    position: relative;
+
+                                    @media(max-width: 900px) {
+                                        color: white;
+                                    }
+
+                                    &::after {
+                                        position: absolute;
+                                        content: '';
+                                        top: 100%;
+                                        left: 0;
+                                        width: 100%;
+                                        height: 3px;
+                                        background-color: #3D67AD;
+                                        transform: scaleX(0);
+                                        transform-origin: right;
+                                        transition: transform 0.5s;
+                                        margin-top: 5px;
+                                    }
+
+                                    &:hover::after {
+                                        transform: scaleX(1);
+                                        transform-origin: left;
+                                    }
+
+                                    @media(max-width:1050px) {
+                                        font-size: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .fa_vid {
+                        text-decoration: none;
+                        color: white;
+
+                        @media(max-width:900px) {
+                            position: absolute;
+                            top: 26px;
+                            right: 60px;
+                        }
+
+                        div {
+                            display: flex;
+                            align-items: center;
+                            background-color: #3D67AD;
+                            border-radius: 5px;
+                            padding: 7px 12px;
+
+                            @media(max-width:900px) {
+                                margin: 0 auto;
+                            }
+
+                            i {
+                                margin-right: 5px;
+                            }
+
+                            p {
+                                font-size: .8rem;
+
+                                @media(max-width:900px) {
+                                    font-size: .6rem;
+                                }
+                            }
+                        }
+                    }
+
+                    @media(max-width: 1200px) {
+                        padding: 15px 20px;
+                        width: 100%;
+                        left: 0;
+                    }
+
+                    .wrapper__videos {
+
+                        .videos_darsliklar {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            width: 100%;
+
+                            .boluvchi {
+                                width: 1px;
+                                height: 22px;
+                                background-color: #C4C4C4;
+                                margin: 0 5px;
+                            }
+
+                            .lot {
+                                display: flex;
+                                align-items: center;
+
+                                @media(max-width: 900px) {
+                                    position: absolute;
+                                    top: 30px;
+                                    right: 50px;
+                                }
+
+                                .checbox {
+                                    background-color: #ff0606;
+                                    width: 50px;
+                                    padding: 2px;
+                                    display: flex;
+                                    align-items: center;
+                                    border-radius: 50px;
+                                    margin: 0 5px;
+
+                                    div {
+                                        background-color: blue;
+                                        width: 20px;
+                                        height: 20px;
+                                        border-radius: 50%;
+                                        transition: .8s;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .fa-bars {
+                    font-size: 30px;
+                    display: none;
+
+                    @media(max-width: 900px) {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+
+
+    }
+}

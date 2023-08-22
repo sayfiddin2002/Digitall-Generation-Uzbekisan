@@ -1,1 +1,193 @@
-/*# sourceMappingURL=style.css.map */
+.bigger {
+  width: 100%;
+  position: relative;
+}
+.bigger .big {
+  margin: 0 auto;
+}
+.bigger .big .naw-fluid {
+  max-width: 100%;
+  margin: 0 auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999999999;
+  background-color: rgba(255, 255, 255, 0.916);
+}
+.bigger .big .naw-fluid .nav .navbar {
+  max-width: 1150px;
+  margin: 0 auto !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  color: black;
+  z-index: 1000000 !important;
+}
+.bigger .big .naw-fluid .nav .navbar .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 900px) {
+  .bigger .big .naw-fluid .nav .navbar .wrap {
+    flex-direction: column-reverse;
+  }
+}
+.bigger .big .naw-fluid .nav .navbar .wrap ul {
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 900px) {
+  .bigger .big .naw-fluid .nav .navbar .wrap ul {
+    color: white;
+    height: 250px !important;
+    transform: translateX(-1000px);
+    text-align: center;
+    flex-direction: column-reverse;
+    background-color: rgba(0, 0, 0, 0.829);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100% !important;
+  }
+}
+@media (max-width: 1050px) {
+  .bigger .big .naw-fluid .nav .navbar .wrap ul {
+    width: 480px;
+  }
+}
+.bigger .big .naw-fluid .nav .navbar .wrap ul li {
+  list-style: none;
+}
+@media (max-width: 900px) {
+  .bigger .big .naw-fluid .nav .navbar .wrap ul li {
+    width: 100%;
+    margin: 25px auto;
+  }
+}
+.bigger .big .naw-fluid .nav .navbar .wrap ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  overflow: hidden;
+  position: relative;
+}
+@media (max-width: 900px) {
+  .bigger .big .naw-fluid .nav .navbar .wrap ul li a {
+    color: white;
+  }
+}
+.bigger .big .naw-fluid .nav .navbar .wrap ul li a::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #3D67AD;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+  margin-top: 5px;
+}
+.bigger .big .naw-fluid .nav .navbar .wrap ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+@media (max-width: 1050px) {
+  .bigger .big .naw-fluid .nav .navbar .wrap ul li a {
+    font-size: 15px;
+  }
+}
+.bigger .big .naw-fluid .nav .navbar .fa_vid {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 900px) {
+  .bigger .big .naw-fluid .nav .navbar .fa_vid {
+    position: absolute;
+    top: 26px;
+    right: 60px;
+  }
+}
+.bigger .big .naw-fluid .nav .navbar .fa_vid div {
+  display: flex;
+  align-items: center;
+  background-color: #3D67AD;
+  border-radius: 5px;
+  padding: 7px 12px;
+}
+@media (max-width: 900px) {
+  .bigger .big .naw-fluid .nav .navbar .fa_vid div {
+    margin: 0 auto;
+  }
+}
+.bigger .big .naw-fluid .nav .navbar .fa_vid div i {
+  margin-right: 5px;
+}
+.bigger .big .naw-fluid .nav .navbar .fa_vid div p {
+  font-size: 0.8rem;
+}
+@media (max-width: 900px) {
+  .bigger .big .naw-fluid .nav .navbar .fa_vid div p {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 1200px) {
+  .bigger .big .naw-fluid .nav .navbar {
+    padding: 15px 20px;
+    width: 100%;
+    left: 0;
+  }
+}
+.bigger .big .naw-fluid .nav .navbar .wrapper__videos .videos_darsliklar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.bigger .big .naw-fluid .nav .navbar .wrapper__videos .videos_darsliklar .boluvchi {
+  width: 1px;
+  height: 22px;
+  background-color: #C4C4C4;
+  margin: 0 5px;
+}
+.bigger .big .naw-fluid .nav .navbar .wrapper__videos .videos_darsliklar .lot {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .bigger .big .naw-fluid .nav .navbar .wrapper__videos .videos_darsliklar .lot {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+  }
+}
+.bigger .big .naw-fluid .nav .navbar .wrapper__videos .videos_darsliklar .lot .checbox {
+  background-color: #ff0606;
+  width: 50px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  margin: 0 5px;
+}
+.bigger .big .naw-fluid .nav .navbar .wrapper__videos .videos_darsliklar .lot .checbox div {
+  background-color: blue;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: 0.8s;
+}
+.bigger .big .naw-fluid .nav .fa-bars {
+  font-size: 30px;
+  display: none;
+}
+@media (max-width: 900px) {
+  .bigger .big .naw-fluid .nav .fa-bars {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
