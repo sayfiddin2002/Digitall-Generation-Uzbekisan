@@ -241,4 +241,205 @@ html {
   .bigger .big .naw-fluid .nav .fa-bars {
     display: block;
   }
+}
+.bigger .big #biz_haqimizda {
+  position: relative;
+  color: white;
+  width: 100%;
+  background-color: #3D67AD;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+@media (max-width: 1200px) {
+  .bigger .big #biz_haqimizda {
+    display: block;
+  }
+}
+@media (max-width: 1000px) {
+  .bigger .big #biz_haqimizda {
+    padding: 0 !important;
+  }
+}
+.bigger .big #biz_haqimizda .biz-cantainer {
+  max-width: 1250px;
+}
+@media (max-width: 1000px) {
+  .bigger .big #biz_haqimizda .biz-cantainer {
+    max-width: 100% !important;
+  }
+}
+.bigger .big #biz_haqimizda .biz-cantainer .bizi {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: center;
+  width: 100%;
+  background-color: #3D67AD;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+@media (max-width: 1000px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 750px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description {
+    width: 100%;
+    padding: 100px 0;
+  }
+}
+@media (max-width: 1000px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description {
+    padding: 80px 20px !important;
+  }
+}
+.bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description p:first-child {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+@media (max-width: 1200px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description p:first-child {
+    font-size: 1rem;
+  }
+}
+.bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description h2 {
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  padding-bottom: 10px;
+}
+@media (max-width: 1200px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description h2 {
+    font-size: 1.5rem;
+  }
+}
+.bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description h2:nth-child(2) {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-top: 10px;
+}
+@media (max-width: 1200px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description h2:nth-child(2) {
+    font-size: 2rem;
+  }
+}
+.bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description .uzb_text {
+  padding: 5px 0 20px 0;
+}
+@media (max-width: 1200px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description .uzb_text {
+    font-size: 0.9rem;
+  }
+}
+.bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+.bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description a div {
+  background-color: #3D67AD;
+  border: 1px solid white;
+  padding: 8px 13px;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+  border-radius: 6px;
+  color: white;
+}
+.bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description a div:hover {
+  background-color: #FCFCFC;
+  border: 1px solid #3D67AD;
+  color: #3D67AD;
+}
+.bigger .big #biz_haqimizda .biz-cantainer .bizi .haqimizda_description a div p {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+}
+.bigger .big #biz_haqimizda .biz-cantainer .bizi .bizning-img {
+  z-index: 2;
+  position: relative;
+  width: 800px;
+}
+@media (max-width: 1200px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .bizning-img {
+    width: 700px;
+  }
+}
+@media (max-width: 1040px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .bizning-img {
+    width: 620px;
+  }
+}
+@media (max-width: 1000px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .bizning-img {
+    width: 100% !important;
+  }
+}
+.bigger .big #biz_haqimizda .biz-cantainer .bizi .bizning-img img {
+  width: 100%;
+  height: 575px;
+  z-index: 1;
+  transform: scaleY(1.01);
+}
+@media (max-width: 1040px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .bizning-img img {
+    height: 480px;
+  }
+}
+@media (max-width: 1150px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .bizning-img img {
+    height: 530px;
+  }
+}
+@media (max-width: 1000px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .bizning-img img {
+    width: 100%;
+    height: auto !important;
+  }
+}
+@media (max-width: 1000px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .bizning-img .groupImg-1 {
+    display: none;
+  }
+}
+.bigger .big #biz_haqimizda .biz-cantainer .bizi .bizning-img .groupImg-2 {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .bigger .big #biz_haqimizda .biz-cantainer .bizi .bizning-img .groupImg-2 {
+    display: block;
+  }
+}
+.bigger .big #biz_haqimizda .container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.bigger .big #biz_haqimizda img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bigger .big #biz_haqimizda .grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+  position: relative;
+}
+.bigger .big #biz_haqimizda .left {
+  position: absolute;
+  z-index: 2;
+  background: url(../img/left.png);
+}
+.bigger .big #biz_haqimizda .right {
+  position: absolute;
+  right: 0;
+  z-index: 1;
 }/*# sourceMappingURL=style.css.map */
